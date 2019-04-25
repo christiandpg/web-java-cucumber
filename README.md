@@ -36,9 +36,17 @@ scenario name and the current date.
   - If you want to run just the Scenario 2, run the file **LoginTests**;
   - If you want to run all of them, run the file **AllTests**.
   
-### In case of problems with Chromedriver
+### 1. In case of problems with Chromedriver
 In case of any problem when executing a test file, check the chromedriver path to your OS in `src/main/resources/project.properties`.
 When using Mac OS, you can receive a message that the chromedriver is not executable. To fix this message, run the following line in your terminal under the chromedriver folder in the project (`src/main/resources/drivers/`):
 ```
 chmod +x chromedriver_mac64
 ```
+
+### 2. In case of problems with Logback imports when using Intellij
+Go to any Page file and click to fix the import error. Click on `Add library 'Gradle: org.slf4j:slf4j-api:1.7.25' to classpath`.
+
+### 3. In case of problems with Intellij
+Try the following option:
+```
+File -> Invalidate Caches / Restart...
