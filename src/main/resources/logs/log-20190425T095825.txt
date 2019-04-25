@@ -1,0 +1,5 @@
+9318 [main] INFO  integritas - Starting scenario: Try to login with wrong user credentials
+9787 [main] INFO  integritas - Username and password fields filled
+9895 [main] INFO  integritas - Clicked on Login button
+42666 [main] ERROR integritas - Test failed, a screenshot will be saved on /Users/christianpereiragoncalves/IdeaProjects/web-java-cucumber/src/main/resources/screenshots/Try to login with wrong user credentials/2019-25-04
+88756 [main] INFO  integritas - Execution finished
